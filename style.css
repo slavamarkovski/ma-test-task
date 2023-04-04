@@ -1,0 +1,38 @@
+html, body {
+    font-family: Tahoma, Verdana, Arial;
+}
+
+#battlefield {
+    border-collapse: collapse;
+}
+
+#battlefield td {
+    padding: 30px 50px;
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+}
+
+#battlefield td.selected {
+    background-color: aquamarine;
+}
+
+#battlefield td.hit {
+    background-color: #CCC;
+}
+
+#battlefield td.selected.hit {
+    background: repeating-linear-gradient(-60deg, #555 0, #555 1px, transparent 1px, transparent 5px);
+}
+
+.button {
+    margin-top: 10px;
+    padding: 5px 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.invisible {
+    visibility: hidden;
+}

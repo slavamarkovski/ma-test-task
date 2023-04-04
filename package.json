@@ -1,0 +1,22 @@
+{
+  "name": "ma-test-task",
+  "version": "1.0.0",
+  "description": "MA test task",
+  "main": "index.js",
+  "scripts": {
+    "game": "open-cli ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slavamarkovski/ma-test-task.git"
+  },
+  "author": "slavamarkovski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slavamarkovski/ma-test-task/issues"
+  },
+  "homepage": "https://github.com/slavamarkovski/ma-test-task#readme",
+  "dependencies": {
+    "open-cli": "^7.2.0"
+  }
+}
