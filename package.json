@@ -2,7 +2,6 @@
   "name": "ma-test-task",
   "version": "1.0.0",
   "description": "MA test task",
-  "main": "index.js",
   "scripts": {
     "game": "open-cli ./index.html"
   },

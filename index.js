@@ -17,7 +17,6 @@ const battlefieldGame = {
     },
 
     completeSelection: function () {
-
         this.completeSelectionButton.on('click', function () {
             if ($(battlefieldGame.cells).filter('.selected').length !== 10) {
                 alert('Please select submarines locations (should be 10)');
@@ -35,6 +34,7 @@ const battlefieldGame = {
         this.hitButton.on('click', function () {
             const nonHitCells = $(battlefieldGame.cells).not('.hit');
             const index = Math.floor((Math.random() * nonHitCells.length));
+
             nonHitCells[index].click();
             $(nonHitCells[index]).addClass('hit');
 
@@ -42,7 +42,6 @@ const battlefieldGame = {
                 $(battlefieldGame.cells).filter('.selected').length === $(battlefieldGame.cells).filter('.hit.selected').length) {
                 alert(`You won after ${$(battlefieldGame.cells).filter('.hit').length} clicks`);
             }
-
         });
     },
 
